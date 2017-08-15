@@ -1,12 +1,10 @@
 class Program01 {
-	public static void szamitHaromszog() {
-		int 3 + 4 + 5;
-	}
-	public static void jegy() {
-		System.out.println("Nevem jön ide");
+	public static double getTriangleRange(double a, double b, double c) {
+		return a + b + c;
 	}	
-	public static void ertek() {
-		System.out.println("Értéke ez.");
+	public static doubel getTriangleArea() {
+		double s = (a + b + c) /2;
+		return Math.sqrt(s*(s-a)*(s-b)*(s-c));
 	}	
 	public static void main(String[] args) {
 		System.out.println("Hi");
